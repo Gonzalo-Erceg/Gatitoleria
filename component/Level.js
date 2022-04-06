@@ -9,7 +9,7 @@ const handleLevel =[
     "100%"
 
 ]
-import { turquesa } from "../../styles/colors/theme"
+import { turquesa } from "../styles/colors/theme"
 
 export const Level = (props)=>{
 

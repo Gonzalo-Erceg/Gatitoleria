@@ -1,9 +1,9 @@
 import {useRouter} from "next/router"
 import {useEffect,useState} from "react"
 import { backgrounds, turquesa } from "../../styles/colors/theme" 
-import Navigation from "../component/Navigation"
+import Navigation from "../../component/Navigation"
 import Head from "next/head"
-import { Level } from "../component/Level"
+import { Level } from "../../component/Level"
 
 
 export default function Gato(props){

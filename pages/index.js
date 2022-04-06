@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Link from "next/link"
 import { backgrounds, turquesa } from '../styles/colors/theme'
 import {useEffect,useState} from "react"
-import Navigation from './component/Navigation'
+import Navigation from '../component/Navigation'
 import { Patita } from '../styles/icons'
-import { ImageRandom } from './component/ImageRandom'
+import { ImageRandom } from '../component/ImageRandom'
 
 
 const handleScroll = ()=>{
@@ -85,8 +85,8 @@ export default function Home(props) {
      }
      .buttonUp{
       position: fixed;
-       outline:1px solid  ${turquesa[0]};
-       background: ${turquesa[0]};
+       outline:1px solid  ${turquesa[2]};
+       background: ${turquesa[2]};
       bottom:20px;
       right:20px;
       border-radius:100px;
