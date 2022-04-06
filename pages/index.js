@@ -33,7 +33,7 @@ export default function Home(props) {
 
 
    <button className='buttonUp' onClick={handleScroll}><Patita width={75}/></button>
-   <h2>hola</h2>
+   <h2>Species</h2>
    <ul>
    {info && info.map(i=>{
 
