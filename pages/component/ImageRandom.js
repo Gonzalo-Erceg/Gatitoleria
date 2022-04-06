@@ -1,6 +1,6 @@
 import {useEffect,useState} from "react" 
 import { turquesa } from "../../styles/colors/theme"
-
+import * as React from "react"
 
 
 export const ImageRandom=()=>{

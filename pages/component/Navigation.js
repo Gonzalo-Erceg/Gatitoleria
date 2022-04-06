@@ -1,7 +1,7 @@
 import { backgrounds } from "../../styles/colors/theme"
 import { Gatito, GithubIcon } from "../../styles/icons" 
 import  Head  from "next/head"
-
+import * as React from "react"
 export default function Navigation () {
 
 
